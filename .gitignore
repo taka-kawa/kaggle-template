@@ -127,3 +127,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# --- custom ---
+data/*
+!.gitkeep
+
+input/*
+!.gitkeep
+
+src/*
+!.gitkeep
+
+config/*
+!.gitkeep
+
+__pycache__
+
+# If you don't push things to remote, please add prefix as '___'
+___*
