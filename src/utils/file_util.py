@@ -5,6 +5,7 @@ from typing import Any, Union
 
 # Third Party
 import numpy as np
+import yaml
 
 
 class FileUtil:
@@ -33,3 +34,10 @@ class FileUtil:
             obj = pickle.load(f)
         print(f"Loaded {str(filepath)}")
         return obj
+
+    @staticmethod
+    def load_yaml(file_path: str, verbose: bool = True) -> dict:
+        with open(file_path) as f:
+            if verbose:
+                print(f"load {file_path}")
+            return yaml.safe_load(f)
