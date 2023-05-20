@@ -134,9 +134,11 @@ dmypy.json
 # --- custom ---
 data/*
 !.gitkeep
-!dataset-metadata.json
 
 input/*
+!.gitkeep
+
+outputs
 !.gitkeep
 
 __pycache__
