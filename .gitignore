@@ -141,6 +141,9 @@ input/*
 outputs
 !.gitkeep
 
+logs
+!.gitkeep
+
 __pycache__
 
 # If you don't push things to remote, please add prefix as '___'
