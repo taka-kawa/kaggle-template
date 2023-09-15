@@ -138,10 +138,10 @@ data/*
 input/*
 !.gitkeep
 
-outputs
+outputs/*
 !.gitkeep
 
-logs
+logs/*
 !.gitkeep
 
 __pycache__
