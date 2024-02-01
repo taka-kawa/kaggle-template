@@ -141,10 +141,13 @@ input/*
 lib/*
 !.gitkeep
 
-outputs/*
+logs/*
 !.gitkeep
 
-logs/*
+models/*
+!.gitkeep
+
+outputs/*
 !.gitkeep
 
 __pycache__
