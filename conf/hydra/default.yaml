@@ -1,0 +1,2 @@
+run:
+  dir: ${paths.logs_dir}/hydra/${mode}/${now:%Y-%m-%d}_${now:%H-%M-%S}

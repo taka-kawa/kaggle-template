@@ -1,0 +1,7 @@
+pj_path: "."
+
+data_dir: ${paths.pj_path}/data
+outputs_dir: ${paths.pj_path}/outputs
+model_dir: ${paths.pj_path}/models
+input_dir: ${paths.pj_path}/input
+logs_dir: ${paths.pj_path}/logs

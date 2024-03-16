@@ -1,0 +1,8 @@
+defaults:
+  - _self_
+  - hydra: default
+  - paths: local
+
+
+mode: null
+seed: 42
