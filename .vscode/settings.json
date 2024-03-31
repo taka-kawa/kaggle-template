@@ -16,4 +16,10 @@
     "isort.interpreter": [
         "${workspaceFolder}/.venv/bin/python"
     ],
+    "isort.args": [
+        "--settings-file",
+        ".isort.cfg",
+        "--profile",
+        "black"
+    ]
 }
