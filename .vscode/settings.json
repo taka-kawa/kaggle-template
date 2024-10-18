@@ -6,6 +6,8 @@
         "editor.tabSize": 4,
         "editor.defaultFormatter": "ms-python.black-formatter",
     },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.formatOnCellExecution": true,
     "black-formatter.interpreter": [
         "${workspaceFolder}/.venv/bin/python"
     ],
